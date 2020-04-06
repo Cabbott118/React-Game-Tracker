@@ -11,7 +11,7 @@ const PlayersList = (props) => {
   return (
     <section className='players-list-section'>
       <header className='section__hdr'>
-        <h2 className='h2 section__hd'>Player Scores</h2>
+        <h2 className='h2 section__hd'>Player Scores:</h2>
       </header>
       <ul className='players-list'>
         {players.map((player, index) => (

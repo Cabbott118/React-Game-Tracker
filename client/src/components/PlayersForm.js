@@ -25,7 +25,7 @@ class PlayersForm extends Component {
         </div>
         <Button
           type='submit'
-          label='Start game'
+          label='Start'
           wrapClass='game-start-button-wrap'
         />
       </form>
@@ -36,7 +36,7 @@ class PlayersForm extends Component {
 const getPlayerInputs = (players, updateName) => {
   return players.map((player, index) => (
     <div className='players-form__player' key={index}>
-      <p>Player {index + 1} name:</p>
+      <p className='player-name'>Player {index + 1} name:</p>
       <PlayerInput id={index} name={player.name} updateName={updateName} />
     </div>
   ));

@@ -5,7 +5,7 @@ class GameSetup extends Component {
   render() {
     return (
       <div className='game-setup'>
-        <p>Please enter a name for each player.</p>
+        <p>Enter player's names.</p>
         <PlayersForm
           players={this.props.players}
           setGameInitialized={this.props.setGameInitialized}

@@ -12,7 +12,7 @@ class PlayerInput extends Component {
   render() {
     return (
       <input
-        className='players-form__name-input'
+        className='players-form__name-input _input'
         name={this.props.name}
         type='text'
         key={this.props.id}

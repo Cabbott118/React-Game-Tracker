@@ -3,7 +3,7 @@ import Button from './Button';
 
 const ResetControls = ({ restart, reset }) => (
   <div className='reset-controls'>
-    {restart && <Button handler={restart} label='Start Over' />}
+    {restart && <Button handler={restart} label='Restart' />}
     {reset && <Button handler={reset} label='Reset Scores' />}
   </div>
 );
